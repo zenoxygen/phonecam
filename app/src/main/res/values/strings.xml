@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Phonecam</string>
+    <string name="enter_ip_address">Enter IP address</string>
+    <string name="_192_168_1_1">192.168.1.1</string>
+    <string name="enter_port">Enter port</string>
+    <string name="_4321">4321</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="start_streaming">Start Streaming</string>
+    <string name="stop_streaming">Stop Streaming</string>
 </resources>

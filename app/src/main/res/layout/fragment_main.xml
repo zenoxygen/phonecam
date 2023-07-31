@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222">
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:id="@+id/ipAddressEditText"
+            android:inputType="text"
+            android:hint="@string/enter_ip_address"
+            android:text="@string/_192_168_1_1"
+            android:textSize="20sp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:importantForAutofill="no"/>
+
+        <EditText
+            android:id="@+id/portEditText"
+            android:inputType="number"
+            android:hint="@string/enter_port"
+            android:text="@string/_4321"
+            android:textSize="20sp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:importantForAutofill="no"/>
+
+        <Button
+            android:id="@+id/switchCameraButton"
+            android:text="@string/switch_camera"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"/>
+
+        <Button
+            android:id="@+id/streamCameraButton"
+            android:text="@string/start_streaming"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_selector"
+            android:padding="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
